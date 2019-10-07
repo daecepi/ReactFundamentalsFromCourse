@@ -1,0 +1,11 @@
+import styled from "styled-compoenents";
+
+export default const FormElement = styled.button`
+background: red;
+`
+
+render(
+    <div>
+        <FormElement></FormElement>
+    </div>
+);
